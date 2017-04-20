@@ -3,8 +3,8 @@ CXX=g++
 
 CXXFLAGS=-Wall -g 
 
-PBINC=/usr/local/include
-PBLIB=/usr/local/lib/libprotobuf.a
+PBINC=/usr/lib64/include
+PBLIB=/usr/lib64/libprotobuf.a
 
 INCS=-I./ -I../src -I${PBINC}
 LIBS=${PBLIB} -lpthread

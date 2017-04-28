@@ -45,3 +45,6 @@ cp -afr src/rapidjson/*        %{buildroot}/%{_includedir}/rapidjson
 %{_includedir}/
 
 %changelog
+* Fri Apr 28 2017 Michal Gawlik <michal.gawlik@thalesgroup.com> 0.1.20160714-1
+- new package built with tito
+

@@ -1,5 +1,5 @@
 Name: pbjson
-Version: 1.0.0
+Version: 0.1.20160714
 Release: 1%{?dist}
 Summary: pbjson library
 Group: Development/Libraries
@@ -21,7 +21,7 @@ Summary:	Development headers for %{name}
 Group:		Development/C
 Requires:	%{name} = %{version}
 %description -n pbjson-devel
-Develpoments headers for pbjson.
+Development headers for pbjson.
 
 %prep
 %setup -q -n %{name}-%{version}

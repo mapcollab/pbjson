@@ -22,7 +22,7 @@ all: build
 build:
 	$(CXX) -c $(CXXFLAGS) -o $(TARGET) $(SRCS) $(LIBS)
 
-.PHONY: clean all
+.PHONY: clean all build
 
 clean:
 	@rm -f $(TARGET)
